@@ -1,0 +1,8 @@
+mapping_layer	rule	records_examined	exact_or_available	unmatched_or_ambiguous	interpretation
+Phenotype workbook to Zenodo metadata	Exact unique GID	288	288	0	All 288 GIDs have 12 plot observations; no row-order matching.
+Phenotype sample name to metadata sample name	Exact string	288	285	3	Three sample-name discrepancies retained and resolved by exact unique GID only: SL_169/SL169, SL_28/SL28, SL_423/SL423.
+SRA run to Zenodo metadata	Exact LibraryName=Library_ID plus SampleName and GID suffix	231	231	0	All three identifiers agree for each of 231 unique runs/BioSamples.
+Metadata accessions without WGS	Explicit Non-genotyped status	57	57	0	Phenotype records exist; no SRR/BioSample found in PRJNA1426382 runinfo.
+2026 sample names to Varshney 2017 Table 40 aliases	Exact normalized identifier string	288	0	0	No exact alias found; this does not prove biological non-overlap.
+2026 sample names to original 238 mini-core crosswalk	Exact normalized identifier string	288	0	0	No exact alias found; this does not prove biological non-overlap.
+Candidate PAV genotypes in 2026	Exact event-level variant calls	5	0	5	No reference-aware PAV genotype calls were verified; all five association tests are not estimable.

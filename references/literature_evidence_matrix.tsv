@@ -1,0 +1,8 @@
+source	study_type	identifier	verified_scope	implication	url
+Yan et al. 2023	Primary pangenome research	10.1038/s41588-023-01302-4	PAV/SNP GWAS for grain number; 142 PAVs associated with 20 traits	Candidate records are prior context; no direct DM validation	https://www.nature.com/articles/s41588-023-01302-4
+Subedi et al. 2026	Public cohort dataset article	10.1016/j.dib.2026.112746	288 phenotype accessions, 231 WGS; 4 Senegal sites	Provides independent cohort for exploratory analysis, not validation by itself	https://doi.org/10.1016/j.dib.2026.112746
+Jones et al. 1995	Primary DM resistance QTL	10.1007/BF00222972	QTL varied by pathogen population; pathotype-specific resistance	DM genetics predates this work; avoid first-ever claim	https://pubmed.ncbi.nlm.nih.gov/24169834/
+Saritha et al. 2017	Primary DM resistance QTL	ICRISAT repository 10458	Four major resistance QTLs across linkage groups 1,3,4 using three isolates	Prior mapping exists	https://oar.icrisat.org/10458/
+Chelpuri et al. 2019	Primary DM resistance QTL	10.1007/s10658-019-01718-x	Five large-effect QTLs across three pathotype-isolates in 187 RILs	Prior marker/QTL work exists	https://oar.icrisat.org/11314/1/chelpuri2019.pdf
+Taunk et al. 2018	Primary marker-assisted breeding	10.1007/s12041-018-1016-7	Introgression targeted three DM resistance loci on LG1,2,4	Existing genetic/marker evidence	https://pubmed.ncbi.nlm.nih.gov/30555073/
+Ramu et al. 2023	Primary improved-genome research and breeding-panel GWAS	10.1038/s41477-023-01420-9	Reports DM resistance MTAs in Corteva breeding germplasm, colocalized with prior QTL	A pearl millet DM GWAS precedent exists; novelty must focus on cohort/design, not first GWAS	https://pmc.ncbi.nlm.nih.gov/articles/PMC10477261/

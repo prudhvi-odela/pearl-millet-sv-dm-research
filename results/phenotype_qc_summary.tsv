@@ -1,0 +1,3 @@
+subset	accessions	plot_rows	sites	replicate_levels	DM_nonmissing	DM_missing	DM_min	DM_max	DM_mean	DM_median	zero_count	one_count	out_of_0_1	duplicate_GID_site_rep_block_plot	accessions_not_12_obs	obs_per_accession_min	obs_per_accession_max
+all_phenotyped_288	288	3456	4	3	3456	0	0.0	1.0	0.12484953703703704	0.0	2323	10	0	0	0	12	12
+exact_WGS_subset_231	231	2772	4	3	2772	0	0.0	1.0	0.12096681096681096	0.0	1946	2	0	0	0	12	12

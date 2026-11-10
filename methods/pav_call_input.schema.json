@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Accession-level PAV/genotype call",
+  "type": "object",
+  "required": [
+    "candidate_id",
+    "event_id",
+    "sample_id",
+    "accession_id",
+    "genotype_pav",
+    "missing_call",
+    "source_provenance"
+  ],
+  "properties": {
+    "candidate_id": {
+      "enum": [
+        "PGLA1542300",
+        "PGLA1557868",
+        "PGLA1564064",
+        "PGLA1457537",
+        "PGLA1545539"
+      ]
+    },
+    "event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sample_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "accession_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reference_assembly": {
+      "type": "string"
+    },
+    "genotype_pav": {
+      "type": "string",
+      "minLength": 1
+    },
+    "missing_call": {
+      "type": "boolean"
+    },
+    "quality": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "depth": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "filter_status": {
+      "type": "string"
+    },
+    "sample_group": {
+      "type": "string"
+    },
+    "phenotype_context": {
+      "type": "string"
+    },
+    "source_provenance": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": true
+}

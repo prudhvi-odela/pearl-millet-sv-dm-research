@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pangenome-to-cohort sample crosswalk",
+  "type": "object",
+  "required": [
+    "sample_id",
+    "accession_id",
+    "source_provenance"
+  ],
+  "properties": {
+    "sample_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "accession_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "alternate_sample_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "germplasm_name": {
+      "type": "string"
+    },
+    "srr": {
+      "type": "string"
+    },
+    "srs": {
+      "type": "string"
+    },
+    "samn": {
+      "type": "string"
+    },
+    "confidence_or_match_method": {
+      "type": "string"
+    },
+    "source_provenance": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": true
+}

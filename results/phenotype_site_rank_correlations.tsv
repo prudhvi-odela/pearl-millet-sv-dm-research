@@ -1,0 +1,7 @@
+site_1	site_2	accessions	spearman_rho
+Bambey_2024	Nioro_2024	231	0.261731
+Bambey_2024	Sefa_2024	231	0.173859
+Bambey_2024	Sinthiou_malem_2024	231	0.447461
+Nioro_2024	Sefa_2024	231	0.223701
+Nioro_2024	Sinthiou_malem_2024	231	0.229211
+Sefa_2024	Sinthiou_malem_2024	231	0.076852

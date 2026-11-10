@@ -1,0 +1,9 @@
+subset	SITE	accessions	plots	nonmissing	mean	median	zeros	ones	min	max
+WGS_231	Bambey_2024	231	693	693	0.05910534	0	546	1	0	1
+WGS_231	Nioro_2024	231	693	693	0.3399711	0.33	181	1	0	1
+WGS_231	Sefa_2024	231	693	693	0.061443	0	582	0	0	0.75
+WGS_231	Sinthiou_malem_2024	231	693	693	0.02334776	0	637	0	0	0.75
+phenotype_only_57	Bambey_2024	57	171	171	0.09695906	0	90	1	0	1
+phenotype_only_57	Nioro_2024	57	171	171	0.3526901	0.33	28	6	0	1
+phenotype_only_57	Sefa_2024	57	171	171	0.06099415	0	137	0	0	0.75
+phenotype_only_57	Sinthiou_malem_2024	57	171	171	0.05169591	0	122	1	0	1

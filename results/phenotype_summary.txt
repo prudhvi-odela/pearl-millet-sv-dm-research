@@ -1,0 +1,3 @@
+N accessions=231; plot rows=2772; four sites; three replicates per accession-site.
+All four site means <=0.10: 22/231. At least one site mean >0.10: 209/231.
+These are descriptive summaries of bounded plot ratios; no GWAS, p-values, genotype effect or adaptation claim was produced.

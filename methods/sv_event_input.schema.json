@@ -1,0 +1,151 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pearl millet SV event record",
+  "type": "object",
+  "required": [
+    "candidate_id",
+    "event_id",
+    "reference_assembly",
+    "chromosome",
+    "start",
+    "end",
+    "coordinate_convention",
+    "sv_type",
+    "event_length",
+    "source_provenance"
+  ],
+  "properties": {
+    "candidate_id": {
+      "enum": [
+        "PGLA1542300",
+        "PGLA1557868",
+        "PGLA1564064",
+        "PGLA1457537",
+        "PGLA1545539"
+      ]
+    },
+    "event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reference_assembly": {
+      "type": "string",
+      "minLength": 1
+    },
+    "chromosome": {
+      "type": "string",
+      "minLength": 1
+    },
+    "start": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "end": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "coordinate_convention": {
+      "enum": [
+        "1-based-closed",
+        "0-based-half-open"
+      ]
+    },
+    "sv_type": {
+      "enum": [
+        "INS",
+        "DEL",
+        "PAV",
+        "INV",
+        "CNV",
+        "TRANS",
+        "OTHER"
+      ]
+    },
+    "event_length": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "reference_allele": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "alternate_allele_or_sequence": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "deleted_sequence": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "left_flank": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "right_flank": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "breakpoint_start": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "breakpoint_end": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "graph_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "alternate_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "calling_method": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "validation_method": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "quality_metrics": {
+      "type": "object"
+    },
+    "limitations": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_provenance": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": true
+}

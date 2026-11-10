@@ -1,0 +1,14 @@
+PASS	metadata_accessions_288	288
+PASS	phenotype_GID_join_288	288
+PASS	WGS_run_metadata_exact_231	231
+PASS	phenotype_plot_records_3456	2772 WGS-matched plot rows; all-cohort QC contains 3456
+PASS	three_name_alias_discrepancies_flagged	3
+PASS	legacy_exact_ID_bridges_none	0 exact aliases; biological overlap unresolved
+PASS	candidate_scope_exact	PGLA1542300,PGLA1557868,PGLA1564064,PGLA1457537,PGLA1545539
+PASS	no_candidate_calls_fabricated	all rows explicitly unavailable
+PASS	association_not_run	no results file
+PASS	five_short_source_checksums	Zenodo API checksums recorded; workbook checks verified in inventory
+PASS	Zenodo_MD5_Pearlmillet_CRCIL_Metadata_288samples.xlsx	595270ae75dc98c3c6a0d2a305b1fcb7
+PASS	Zenodo_MD5_Pearlmillet_CRCIL_Phenotypedata_288samples.xlsx	40c85ee865367f7c75fd8ffbf81788ca
+PASS	Zenodo_MD5_README.txt	0ee5b63854174c72cefa0076343c36d0
+PASS	prior_audited_source_files_unchanged	11/11

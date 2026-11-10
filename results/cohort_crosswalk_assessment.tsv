@@ -1,0 +1,5 @@
+comparison_type	Yan_field_or_fields	2026_field_or_fields	n_Yan_rows_or_values	n_2026_rows_or_values	n_exact_record_pairs_or_unmatched	n_ambiguous_records	interpretation
+dataset_size	Yan2023_S1_NCBI_matched.tsv	genotype_sample_crosswalk.tsv	394	231	0	0	Yan source accessions and 2026 sequenced cohort records compared using only exact strings across the listed stable identifier/name fields
+exact_overlap	ID;SRRnumber;Run;Sample;BioSample;SampleName	GID;Library_ID;Sample names_x;Sample names_y;SampleName;LibraryName;Run;Sample;BioSample	1922	1386	0	0	No exact shared identifier value/record pair was found; no approximate name matching used
+ambiguous_links	all tested fields	all tested fields	0	0	0	0	No exact one-to-many ambiguous link was found because there were no exact linked records
+unmatched_records	Yan rows	2026 cohort rows	394	231	394	231	All records remain unmatched at exact string level; this does not prove biological accessions are different, only that an authoritative crosswalk is absent
